@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="./style/style.css">
+        <title>Edit Menu Item</title>
+    </head>
+    <body>
+        <div>
+            <header>
+                <p class="nav-text">truYum</p>
+                <img class="logo" src="images/truyum-logo-light.png"></img>
+                <span><a class="nav-text" href="menu-item-list-admin.html">Menu</a></span>
+            </header>
+                <div id="content">
+                    <caption>
+                        <h3>Edit Menu Item</h3>
+                    </caption>
+                    <form>
+                        <div>
+                            <label for="name">Name</label><br>
+                            <input type="text" id="name" style="width: 60%;">
+                        </div><br>
+                        <div>
+                            <div style="float: left; margin-right: 20px;">
+                                <label for="price">Price (Rs.)</label><br>
+                                <input type="text" id="price">
+                            </div>
+                            <div style="float: left; margin-right: 20px;">
+                                <label for="active">Active</label><br>
+                                <input type="radio" name="active"><label>Yes</label>&nbsp;&nbsp;
+                                <input type="radio" name="active"><label>No</label>
+                            </div>
+                            <div style="float: left; margin-right: 20px;">
+                                <label for="launch">Date of Launch</label><br>
+                                <input type="date" id="launch">
+                            </div>
+                            <div style="float: left; margin-right: 20px;">
+                                <label for="category">Category</label><br>
+                                <select id="category">
+                                    <option selected>Choose</option>
+                                    <option value="Starters">Starters</option>
+                                    <option value="Main Course">Main Course</option>
+                                    <option value="Dessert">Dessert</option>
+                                    <option value="Drinks">Drinks</option>
+                                </select>
+                            </div>
+                        </div><br><br><br>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="freedelivery">
+                                <label for="freedelivery">
+                                    Free Delivery
+                                </label>
+                            </div>
+                        </div><br>
+                        <button type="submit" id="save">Save</button>
+                    </form>
+                </div>
+            <footer>
+                <div>Copyright &copy; 2019</div>
+            </footer>
+        </div>
+    </body>
+</html>

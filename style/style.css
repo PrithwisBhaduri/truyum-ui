@@ -1,0 +1,65 @@
+header {
+    background: #326496;
+    width: 100%;
+}
+
+header p{
+    font-size: 40px;
+}
+
+.nav-text {
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 40px;
+}
+
+header span{
+    margin-left: 60%;
+}
+
+footer {
+    position: absolute;
+    background: #7c7c7c;
+    width: 100%;
+    bottom: 0;
+    height: 10%;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    padding: 3px;
+    margin-left: 25px;
+}
+
+table {
+    margin: 0px auto;
+    width: 60%;
+    text-align: center;
+}
+
+#content {
+    margin: 0px auto;
+    width: 60%;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+table caption {
+    text-align: left;
+    margin-top: 50px;
+}
+
+#empty-cart {
+    font-size: 20px;
+    font-weight: 300;
+    color: #9c9c9c;
+}
+
+.message {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
