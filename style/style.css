@@ -1,3 +1,6 @@
+body {
+    font-family: Verdana, sans-serif;
+}
 header {
     background: #326496;
     width: 100%;
@@ -5,6 +8,7 @@ header {
 
 header p{
     font-size: 40px;
+    position: absolute;
 }
 
 .nav-text {
@@ -14,22 +18,38 @@ header p{
 }
 
 header span{
-    margin-left: 60%;
+    float: right;
+    margin-right: 100px;
+}
+
+p.nav-text {
+    margin: 5px 0px 0px 0px;
+}
+
+a.nav-text{
+    margin: 20px;
+    color: #ffffff;
+    padding: 0px;
 }
 
 footer {
     position: absolute;
-    background: #7c7c7c;
+    background: #a1a1a1;
     width: 100%;
     bottom: 0;
     height: 10%;
 }
 
+footer div{
+    margin: 25px;
+    font-size: 20px;
+}
+
 .logo {
-    height: 100px;
-    width: 100px;
-    padding: 3px;
-    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+    padding: 5px 20px;
+    margin-left: 180px;
 }
 
 table {
@@ -44,7 +64,9 @@ table {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 60px 0px 30px 0px;
 }
 
 table caption {
@@ -63,3 +85,39 @@ table caption {
     text-align: center;
     font-weight: bold;
 }
+
+label {
+    color: #585858;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input {
+    border: 1.5px solid #909090;
+    height: 1.5em;
+}
+
+input[type="radio"] {
+    width: 1.5em;
+    height: 1.5em;
+} 
+
+select#category {
+    border: 1.5px solid #909090;
+    height: 1.5em;
+}
+
+input#freedelivery {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0px;
+}
+
+#save {
+    background: #326496;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 50px;
+}
+
